@@ -1,0 +1,9 @@
+* Critical
+ - Security: prevent the script from writing outside of the working directory
+* Major
+ - Command line options (base url, download images, scripts…)
+* Normal
+ - Also download js / css / images from other domains and fix the relevant hrefs in the html / js / css
+* Minor
+ - Blacklist ads js / css / images (don't download them, and remove the relevant hrefs in the html)
+ - Remove useless stuff (comments, login, search…)

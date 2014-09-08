@@ -1,12 +1,6 @@
 #! /usr/bin/python
 # -*- coding: utf-8 -*-
 
-# TODO security: prevent the script from writing outside of the working directory
-# TODO command line options (base url, download images, scripts…)
-# TODO also download js / css / images from other domains and fix the relevant hrefs in the html / js / css
-# TODO blacklist ads js / css / images (don't download them, and remove the relevant hrefs in the html)
-# TODO remove useless stuff (comments, login, search…)
-
 import collections
 import lxml.html
 import os
